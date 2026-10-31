@@ -1,6 +1,6 @@
 # Sensor cable — edit any property or use the visual inspector.
 metadata:
-  title: Sensor extension cable
+  title: Multi-Cluster-Control_WIRING
   description: Four conductors between a sensor and its controller.
 
 connectors:
@@ -33,7 +33,7 @@ connectors:
       - BRN/BLK
       - BRN/YEL (ext)
   CN1:
-    type: JST XH
+    type: Connector
     subtype: male
     pincount: 20
     pinlabels:
@@ -105,13 +105,8 @@ connectors:
       - Power
       - Right turn
       - Left turn
-      - " "
-  CN3 (X90 Lamps):
-    type: Connector
-    pincount: 2
-    pinlabels:
-      - Seatbelt
-      - 4WD
+      - Charge
+      - O/D off
   GT86:
     type: Connector
     pincount: 18
@@ -133,7 +128,7 @@ connectors:
       - RED/BLK
   CN3:
     type: Connector
-    pincount: 18
+    pincount: 20
     pinlabels:
       - +12V
       - GND
@@ -142,11 +137,14 @@ connectors:
       - Fuel sender
       - Right turn
       - Left turn
+      - ""
+      - ""
       - TRIP
       - Oil
       - Charge
       - Brake
       - Security
+      - ""
       - Seatbelt
   F10:
     type: Connector
@@ -197,7 +195,7 @@ cables:
   W4:
     wirecount: 8
     color_code: IEC
-    gauge: 220 AWG
+    gauge: 20 AWG
     length: 0.5
 
 connections:
@@ -369,15 +367,10 @@ connections:
   - - W1: 17
     - CN2: 17
   - - W2
-  - - CN3 (X90 Lamps)
   - - X-90: 22
     - W2: 1
   - - X-90: 23
     - W2: 2
-  - - W2: 1
-    - CN3 (X90 Lamps): 1
-  - - W2: 2
-    - CN3 (X90 Lamps): 2
   - - GT86
   - - W3
   - - CN3
@@ -417,18 +410,6 @@ connections:
     - W3: 12
   - - GT86: 15
     - W3: 13
-  - - W3: 13
-    - CN3: 13
-  - - W3: 12
-    - CN3: 12
-  - - W3: 11
-    - CN3: 11
-  - - W3: 10
-    - CN3: 10
-  - - W3: 9
-    - CN3: 9
-  - - W3: 8
-    - CN3: 8
   - - W3: 7
     - CN3: 7
   - - W3: 4
@@ -462,3 +443,19 @@ connections:
     - W4: 4
   - - F10: 6
     - W4: 3
+  - - W3: 8
+    - CN3: 10
+  - - W3: 9
+    - CN3: 11
+  - - W3: 10
+    - CN3: 12
+  - - W3: 11
+    - CN3: 13
+  - - W3: 12
+    - CN3: 14
+  - - W3: 13
+    - CN3: 16
+  - - W2: 2
+    - CN3: 9
+  - - W2: 1
+    - CN3: 8
