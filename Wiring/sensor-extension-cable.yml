@@ -1,0 +1,464 @@
+# Sensor cable — edit any property or use the visual inspector.
+metadata:
+  title: Sensor extension cable
+  description: Four conductors between a sensor and its controller.
+
+connectors:
+  W126:
+    type: Cluster
+    subtype: female
+    pincount: 23
+    pinlabels:
+      - BLK/PNK X4
+      - PNK/BLK X2
+      - RED/WHT
+      - BLK/RED
+      - BRN X3
+      - BRN/GRY (ext)
+      - GRN/YEL
+      - WHT ( 8 pin)
+      - GRN
+      - BLU/BLK
+      - BRN/GRN
+      - GRY/BLU (8 pin)
+      - WHT (15 pin)
+      - BLK/WHT
+      - BLK/GRN
+      - BLU
+      - BRN/WHT
+      - BRN/RED
+      - BRN/YEL
+      - BRN/BLU
+      - BLU/GRN
+      - BRN/BLK
+      - BRN/YEL (ext)
+  CN1:
+    type: JST XH
+    subtype: male
+    pincount: 20
+    pinlabels:
+      - +12V
+      - GND
+      - Bulb Failure
+      - Tach
+      - Speedo
+      - Temp Gauge
+      - Fuel Gauge
+      - Oil Pressure Gauge
+      - Illumination
+      - High Beam
+      - Left Turn
+      - Right Turn
+      - Battery
+      - Brake fluid
+      - Pad wear
+      - Coolant level
+      - Washer fluid
+      - Fuel reserve
+      - Oil level
+      - ABS
+  X-90:
+    type: Cluster
+    pincount: 23
+    pinlabels:
+      - BLK/WHT X2
+      - BLK X2
+      - WHT/BLU
+      - BLK/YEL
+      - BRN/WHT
+      - YEL/RED
+      - YEL/WHT
+      - X27 Pin 1
+      - X27 Pin 2
+      - X27 Pin 3
+      - X27 Pin 4
+      - RED/YEL
+      - RED
+      - RED/BLK
+      - PNK/YEL
+      - YEL/BLK
+      - PNK
+      - GRN/YEL
+      - GRN/RED
+      - WHT/RED
+      - WHT/BLK
+      - GRY/RED
+      - ORG/BLK
+  CN2:
+    type: Connector
+    pincount: 20
+    pinlabels:
+      - +12V
+      - GND
+      - Tach
+      - Fuel Gauge
+      - Temp Gauge
+      - X27 Pin 1
+      - X27 Pin 2
+      - X27 Pin 3
+      - X27 Pin 4
+      - Illumination return
+      - High Beam
+      - Brake
+      - Check engine
+      - Oil pressure
+      - Power
+      - Right turn
+      - Left turn
+      - " "
+  CN3 (X90 Lamps):
+    type: Connector
+    pincount: 2
+    pinlabels:
+      - Seatbelt
+      - 4WD
+  GT86:
+    type: Connector
+    pincount: 18
+    pinlabels:
+      - RED/WHT
+      - WHT/GRN X2
+      - BLK/YEL X2
+      - BLU
+      - BRN
+      - BRN/WHT
+      - LGN
+      - GRY
+      - WHT/RED
+      - PNK
+      - LGN thick
+      - GRN
+      - WHT/BLU
+      - VIO
+      - RED/BLK
+  CN3:
+    type: Connector
+    pincount: 18
+    pinlabels:
+      - +12V
+      - GND
+      - CAN-H
+      - CAN-L
+      - Fuel sender
+      - Right turn
+      - Left turn
+      - TRIP
+      - Oil
+      - Charge
+      - Brake
+      - Security
+      - Seatbelt
+  F10:
+    type: Connector
+    pincount: 8
+    pinlabels:
+      - Pin 1
+      - Pin 2
+      - Pin 11
+      - Pin 7
+      - Pin 8
+      - Pin 6
+      - Pin 12
+  CN4:
+    type: Connector
+    pincount: 8
+    pinlabels:
+      - +12V
+      - GND
+      - CAN-H
+      - CAN-L
+
+cables:
+  20 core cable:
+    wirecount: 20
+    gauge: 20 AWG
+    length: 0.5
+    colors: [ RD, BK, YE, GN ]
+    wirelabels:
+      - ""
+      - ""
+      - ""
+      - ""
+  W1:
+    wirecount: 20
+    color_code: IEC
+    gauge: 20 AWG
+    length: 0.5
+  W2:
+    wirecount: 2
+    color_code: IEC
+    gauge: 20 AWG
+    length: 0.5
+  W3:
+    wirecount: 18
+    color_code: IEC
+    gauge: 20 AWG
+    length: 0.5
+  W4:
+    wirecount: 8
+    color_code: IEC
+    gauge: 220 AWG
+    length: 0.5
+
+connections:
+  - - W126:
+        - 1
+    - 20 core cable:
+        - 1
+    - CN1:
+        - 1
+  - - 20 core cable: 5
+    - CN1: 5
+  - - 20 core cable: 6
+    - CN1: 6
+  - - 20 core cable: 7
+    - CN1: 7
+  - - 20 core cable: 8
+    - CN1: 8
+  - - 20 core cable: 9
+    - CN1: 9
+  - - 20 core cable: 10
+    - CN1: 10
+  - - 20 core cable: 12
+    - CN1: 12
+  - - 20 core cable: 11
+    - CN1: 11
+  - - 20 core cable: 13
+    - CN1: 13
+  - - 20 core cable: 14
+    - CN1: 14
+  - - 20 core cable: 15
+    - CN1: 15
+  - - 20 core cable: 16
+    - CN1: 16
+  - - 20 core cable: 17
+    - CN1: 17
+  - - 20 core cable: 19
+    - CN1: 19
+  - - 20 core cable: 20
+    - CN1: 20
+  - - 20 core cable: 18
+    - CN1: 18
+  - - W126: 4
+    - 20 core cable: 1
+  - - W126: 3
+    - 20 core cable: 1
+  - - W126: 2
+    - 20 core cable: 1
+  - - W126: 5
+    - 20 core cable: 2
+  - - 20 core cable: 2
+    - CN1: 2
+  - - W126: 6
+    - 20 core cable: 3
+  - - 20 core cable: 3
+    - CN1: 3
+  - - 20 core cable: 4
+    - CN1: 4
+  - - W126: 7
+    - 20 core cable: 4
+  - - W126: 8
+    - 20 core cable: 5
+  - - W126: 9
+    - 20 core cable: 6
+  - - W126: 10
+    - 20 core cable: 7
+  - - W126: 11
+    - 20 core cable: 8
+  - - W126: 23
+    - 20 core cable: 20
+  - - W126: 22
+    - 20 core cable: 19
+  - - W126: 12
+    - 20 core cable: 9
+  - - W126: 21
+    - 20 core cable: 18
+  - - W126: 20
+    - 20 core cable: 17
+  - - W126: 18
+    - 20 core cable: 15
+  - - W126: 17
+    - 20 core cable: 14
+  - - W126: 16
+    - 20 core cable: 13
+  - - W126: 15
+    - 20 core cable: 12
+  - - W126: 14
+    - 20 core cable: 11
+  - - W126: 13
+    - 20 core cable: 10
+  - - X-90
+  - - W1
+  - - CN2
+  - - W126: 19
+    - 20 core cable: 16
+  - - W1: 1
+    - CN2: 1
+  - - X-90: 1
+    - W1: 1
+  - - W1: 2
+    - CN2: 2
+  - - X-90: 2
+    - W1: 1
+  - - X-90: 3
+    - W1: 1
+  - - X-90: 4
+    - W1: 2
+  - - X-90: 5
+    - W1: 3
+  - - X-90: 6
+    - W1: 4
+  - - X-90: 7
+    - W1: 5
+  - - X-90: 8
+    - W1: 6
+  - - X-90: 9
+    - W1: 7
+  - - X-90: 10
+    - W1: 8
+  - - X-90: 11
+    - W1: 9
+  - - X-90: 12
+    - W1: 10
+  - - X-90: 13
+    - W1: 11
+  - - X-90: 14
+    - W1: 12
+  - - X-90: 15
+    - W1: 13
+  - - X-90: 16
+    - W1: 14
+  - - X-90: 17
+    - W1: 15
+  - - X-90: 18
+    - W1: 16
+  - - X-90: 20
+    - W1: 18
+  - - X-90: 19
+    - W1: 17
+  - - X-90: 21
+    - W1: 19
+  - - W1: 3
+    - CN2: 3
+  - - W1: 4
+    - CN2: 4
+  - - W1: 5
+    - CN2: 5
+  - - W1: 7
+    - CN2: 7
+  - - W1: 6
+    - CN2: 6
+  - - W1: 8
+    - CN2: 8
+  - - W1: 9
+    - CN2: 9
+  - - W1: 10
+    - CN2: 10
+  - - W1: 11
+    - CN2: 11
+  - - W1: 12
+    - CN2: 12
+  - - W1: 13
+    - CN2: 13
+  - - W1: 14
+    - CN2: 14
+  - - W1: 15
+    - CN2: 15
+  - - W1: 16
+    - CN2: 16
+  - - W1: 17
+    - CN2: 17
+  - - W2
+  - - CN3 (X90 Lamps)
+  - - X-90: 22
+    - W2: 1
+  - - X-90: 23
+    - W2: 2
+  - - W2: 1
+    - CN3 (X90 Lamps): 1
+  - - W2: 2
+    - CN3 (X90 Lamps): 2
+  - - GT86
+  - - W3
+  - - CN3
+  - - W3: 1
+    - CN3: 1
+  - - GT86: 1
+    - W3: 1
+  - - GT86: 2
+    - W3: 1
+  - - GT86: 3
+    - W3: 2
+  - - GT86: 4
+    - W3: 2
+  - - W3: 2
+    - CN3: 2
+  - - W3: 3
+    - CN3: 3
+  - - GT86: 5
+    - W3: 3
+  - - GT86: 6
+    - W3: 4
+  - - GT86: 7
+    - W3: 5
+  - - GT86: 8
+    - W3: 6
+  - - GT86: 9
+    - W3: 7
+  - - GT86: 10
+    - W3: 8
+  - - GT86: 11
+    - W3: 9
+  - - GT86: 12
+    - W3: 10
+  - - GT86: 13
+    - W3: 11
+  - - GT86: 14
+    - W3: 12
+  - - GT86: 15
+    - W3: 13
+  - - W3: 13
+    - CN3: 13
+  - - W3: 12
+    - CN3: 12
+  - - W3: 11
+    - CN3: 11
+  - - W3: 10
+    - CN3: 10
+  - - W3: 9
+    - CN3: 9
+  - - W3: 8
+    - CN3: 8
+  - - W3: 7
+    - CN3: 7
+  - - W3: 4
+    - CN3: 4
+  - - W3: 5
+    - CN3: 5
+  - - W3: 6
+    - CN3: 6
+  - - F10
+  - - W4
+  - - CN4
+  - - F10: 1
+    - W4: 1
+  - - W4: 1
+    - CN4: 1
+  - - F10: 2
+    - W4: 1
+  - - F10: 3
+    - W4: 1
+  - - F10: 4
+    - W4: 2
+  - - F10: 5
+    - W4: 2
+  - - W4: 2
+    - CN4: 2
+  - - W4: 3
+    - CN4: 3
+  - - W4: 4
+    - CN4: 4
+  - - F10: 7
+    - W4: 4
+  - - F10: 6
+    - W4: 3
