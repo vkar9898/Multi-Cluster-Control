@@ -23,29 +23,30 @@ I made this project mostly because I had a lot of car dashboards around, and wan
 | Board parts not assembled by JLC | Cluster plug, 4-pin 3.81 mm screw (KANGNEX WJ15EDGK-3.81-04P-14-00A) | CN4, 2 per header | C7244 (min order 5) | LCSC | 5 | $0.3071 | $1.54 | Quoted | [link](https://www.lcsc.com/product-detail/C7244.html) | Min order 5 |
 | Board parts not assembled by JLC | 5-way screw terminal, 5.08 mm (Phoenix MKDS 1,5/5-5,08, 1715750) | J15 | C6042418 | LCSC | 2 | $1.2721 | $2.54 | Quoted | [link](https://www.lcsc.com/product-detail/C6042418.html) | 1 spare |
 | Board parts not assembled by JLC | 1x14 female header 2.54 mm | J11 (VID6606 adapter), 2 per board | C2905420 (min order 5) | LCSC | 5 | $0.1470 | $0.74 | Quoted | [link](https://www.lcsc.com/product-detail/C2905420.html) | Min order 5 |
-| Modules and chips | VID6606 stepper driver, SOP-28 (5 pcs) | X-90 speedo stepper driver | VID6606 | AliExpress | 1 | $4.74 | $4.74 | Quoted | [link](https://www.aliexpress.com/item/1005007323081013.html) |  |
-| Modules and chips | SOP-28 to DIP-28 adapter boards (10 pcs) | Carrier for the VID6606 in J11 | SOP28 to DIP28 | AliExpress | 1 | $1.74 | $1.74 | Quoted | [link](https://www.aliexpress.com/item/32909339596.html) | 15.24 mm DIP width |
-| Modules and chips | X27.168 gauge stepper motor | X-90 speedo + 1 spare | X27.168 | AliExpress | 2 | $2.35 | $4.70 | Quoted | [link](https://www.aliexpress.com/item/1005006620561935.html) |  |
-| Modules and chips | PCA9685 16-ch PWM module | J5/J6 (gauge PWM) | PCA9685 | AliExpress | 1 | $4.34 | $4.34 | Quoted | [link](https://www.aliexpress.com/item/1005005670283526.html) |  |
-| Modules and chips | MCP2515 CAN module, TJA1050, 8 MHz | Second CAN module | MCP2515 TJA1050 | AliExpress | 1 | $0.93 | $0.93 | Quoted | [link](https://www.aliexpress.com/item/1005010199935143.html) | 8 MHz crystal |
-| Modules and chips | MP1584EN adjustable buck module (5 pcs) | M5 (5.0 V), M6 (3.6 V) | MP1584EN | AliExpress | 1 | $3.52 | $3.52 | Quoted | [link](https://www.aliexpress.com/item/1005007653423578.html) | Set voltage before soldering |
-| Modules and chips | MT3608 boost module | M7 (24 V) | MT3608 / 1PCS | AliExpress | 1 | $2.61 | $2.61 | Quoted | [link](https://www.aliexpress.com/item/1005011548818999.html) | Set to 24 V |
-| Wiring | 20-core 20 AWG RVV sheathed cable, 2 m | 4 cluster cables x 0.5 m | RVV 20 core 20 AWG, 2 m option | AliExpress | 1 | $22.34 | $22.34 | Quoted | [link](https://www.aliexpress.com/item/1005004200589656.html) |  |
-| Wiring | Dupont jumpers, female-female, 10 cm, 40 pcs | PCA9685, MCP2515 x2, light sensor | Dupont F-F 10 cm | AliExpress | 1 | $1.00 | $1.00 | Quoted | [link](https://www.aliexpress.com/item/1005009372155336.html) |  |
-| Power | 12 V 4 A plug pack, 5.5 x 2.1 mm, AU plug | J1, J2 | 4A/12 V/AU Plug | AliExpress | 2 | $4.23 | $8.46 | Quoted | [link](https://www.aliexpress.com/item/1005013455261196.html) | Centre-positive |
+| Modules and chips | VID6606 stepper driver, SOP-28 (5 pcs) | X-90 speedo stepper driver | VID6606 | AliExpress | 1 | $4.45 | $4.45 | Quoted | [link](https://www.aliexpress.com/item/1005007323081013.html) |  |
+| Modules and chips | SOP-28 to DIP-28 adapter boards (10 pcs) | Carrier for the VID6606 in J11 | SOP28 to DIP28 | AliExpress | 1 | $1.64 | $1.64 | Quoted | [link](https://www.aliexpress.com/item/32909339596.html) | 15.24 mm DIP width |
+| Modules and chips | X27.168 gauge stepper motor | X-90 speedo + 1 spare | X27.168 | AliExpress | 2 | $2.23 | $4.46 | Quoted | [link](https://www.aliexpress.com/item/1005006620561935.html) |  |
+| Modules and chips | PCA9685 16-ch PWM module | J5/J6 (gauge PWM) | PCA9685 | AliExpress | 1 | $3.75 | $3.75 | Quoted | [link](https://www.aliexpress.com/item/1005005670283526.html) |  |
+| Modules and chips | MCP2515 CAN module, TJA1050, 8 MHz | Second CAN module | MCP2515 TJA1050 | AliExpress | 1 | $0.88 | $0.88 | Quoted | [link](https://www.aliexpress.com/item/1005010199935143.html) | 8 MHz crystal |
+| Modules and chips | MP1584EN adjustable buck module (5 pcs) | M5 (5.0 V), M6 (3.6 V) | MP1584EN | AliExpress | 1 | $3.03 | $3.03 | Quoted | [link](https://www.aliexpress.com/item/1005007653423578.html) | Set voltage before soldering |
+| Modules and chips | MT3608 boost module | M7 (24 V) | MT3608 / 1PCS | AliExpress | 1 | $2.21 | $2.21 | Quoted | [link](https://www.aliexpress.com/item/1005011548818999.html) | Set to 24 V |
+| Wiring | 20-core 20 AWG RVV sheathed cable, 2 m | 4 cluster cables x 0.5 m | RVV 20 core 20 AWG, 2 m option | AliExpress | 1 | $17.64 | $17.64 | Quoted | [link](https://www.aliexpress.com/item/1005004200589656.html) |  |
+| Wiring | Dupont jumpers, female-female, 10 cm, 40 pcs | PCA9685, MCP2515 x2, light sensor | Dupont F-F 10 cm | AliExpress | 1 | $0.93 | $0.93 | Quoted | [link](https://www.aliexpress.com/item/1005009372155336.html) |  |
+| Power | 12 V 4 A plug pack, 5.5 x 2.1 mm, AU plug | J1, J2 | 4A/12 V/AU Plug | AliExpress | 2 | $3.99 | $7.98 | Quoted | [link](https://www.aliexpress.com/item/1005013455261196.html) | Centre-positive |
 | Power | SCA mini blade fuse 5 A, 6 pack | F1, F2 + spares | 726696 | Supercheap Auto | 1 | $2.81 | $2.81 | Quoted | [link](https://www.supercheapauto.com.au/p/sca-sca-automotive-fuses-mini-blade-5-amp-6-pack/726696.html) | Click & collect |
 | Lighting | T10 (W5W) LED wedge bulbs, 6500K white, 10 pack | Cluster illumination | ASIN B0HGLD6KBJ | Amazon AU | 1 | $6.33 | $6.33 | Quoted | [link](https://www.amazon.com.au/dp/B0HGLD6KBJ) | Polarised |
 | Mounting | M3 x 16 mm pan head screws + nuts + washers, 304 stainless (20 sets) | Board to support, 4 holes | M3 20sets / 16mm | AliExpress | 1 | $3.03 | $3.03 | Quoted | [link](https://www.aliexpress.com/item/4001323750672.html) |  |
+| Discounts | AliExpress checkout discounts |  |  | AliExpress | 1 | -$4.31 | -$4.31 | Quoted |  |  |
 | Already owned | ESP32 dev board (38-pin) | J3/J4 |  | Owned | 1 | $0.00 | $0.00 | Owned |  |  |
 | Already owned | Light sensor module | J14 |  | Owned | 1 | $0.00 | $0.00 | Owned |  |  |
 | Already owned | MCP2515 CAN module (first one) | J7 or J9 |  | Owned | 1 | $0.00 | $0.00 | Owned |  |  |
 | Shipping | Shipping: UPS Worldwide Express Saver (PCB + assembly + idle parts) |  |  | JLCPCB | 1 | $17.94 | $17.94 | Quoted |  |  |
 | Shipping | Shipping: Global Direct Standard Line |  |  | LCSC | 1 | $9.93 | $9.93 | Quoted |  |  |
 | Shipping | Shipping: Handling fee |  |  | LCSC | 1 | $3.00 | $3.00 | Quoted |  | Waived over $15.60 merchandise |
-| Shipping | Shipping: Dupont jumper store (Economy) |  |  | AliExpress | 1 | $3.10 | $3.10 | Quoted |  |  |
-| Shipping | Shipping: MCP2515 store (Economy) |  |  | AliExpress | 1 | $2.29 | $2.29 | Quoted |  |  |
+| Shipping | Shipping: Dupont jumper store |  |  | AliExpress | 1 | $3.02 | $3.02 | Quoted |  |  |
+| Shipping | Shipping: MCP2515 store |  |  | AliExpress | 1 | $2.23 | $2.23 | Quoted |  |  |
 | Shipping | Shipping: All other items |  |  | AliExpress | 1 | $0.00 | $0.00 | Quoted |  | Free shipping |
 | Shipping | Shipping: Click & collect |  |  | Supercheap Auto | 1 | $0.00 | $0.00 | Quoted |  |  |
 | Shipping | Shipping: Standard delivery (T10 bulbs) |  |  | Amazon AU | 1 | $0.00 | $0.00 | Estimate |  | Free on first order or over AU$49 |
  
-**Total: $173.04** (parts $136.78 + shipping $36.26)
+**Total: $161.18** (parts $125.06 + shipping $36.12)
