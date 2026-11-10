@@ -31,12 +31,13 @@ I made this project mostly because I had a lot of car dashboards around, and wan
 | Modules and chips | MP1584EN adjustable buck module (5 pcs) | M5 (5.0 V), M6 (3.6 V) | MP1584EN | AliExpress | 1 | $3.03 | $3.03 | Quoted | [link](https://www.aliexpress.com/item/1005007653423578.html) | Set voltage before soldering |
 | Modules and chips | MT3608 boost module | M7 (24 V) | MT3608 / 1PCS | AliExpress | 1 | $2.21 | $2.21 | Quoted | [link](https://www.aliexpress.com/item/1005011548818999.html) | Set to 24 V |
 | Wiring | 20-core 20 AWG RVV sheathed cable, 2 m | 4 cluster cables x 0.5 m | RVV 20 core 20 AWG, 2 m option | AliExpress | 1 | $17.64 | $17.64 | Quoted | [link](https://www.aliexpress.com/item/1005004200589656.html) |  |
+| Board parts not assembled by JLC | 2.54 mm pin headers, 1x40 male + 1x40 female (5 of each) | SOP28 adapter pins (2x14), spare headers | 5Sets male female | AliExpress | 1 | $1.77 | $1.77 | Quoted | [link](https://www.aliexpress.com/item/1005008647955410.html) |  |
 | Wiring | Dupont jumpers, female-female, 10 cm, 40 pcs | PCA9685, MCP2515 x2, light sensor | Dupont F-F 10 cm | AliExpress | 1 | $0.93 | $0.93 | Quoted | [link](https://www.aliexpress.com/item/1005009372155336.html) |  |
 | Power | 12 V 4 A plug pack, 5.5 x 2.1 mm, AU plug | J1, J2 | 4A/12 V/AU Plug | AliExpress | 2 | $3.99 | $7.98 | Quoted | [link](https://www.aliexpress.com/item/1005013455261196.html) | Centre-positive |
 | Power | SCA mini blade fuse 5 A, 6 pack | F1, F2 + spares | 726696 | Supercheap Auto | 1 | $2.81 | $2.81 | Quoted | [link](https://www.supercheapauto.com.au/p/sca-sca-automotive-fuses-mini-blade-5-amp-6-pack/726696.html) | Click & collect |
 | Lighting | T10 (W5W) LED wedge bulbs, 6500K white, 10 pack | Cluster illumination | ASIN B0HGLD6KBJ | Amazon AU | 1 | $6.33 | $6.33 | Quoted | [link](https://www.amazon.com.au/dp/B0HGLD6KBJ) | Polarised |
-| Mounting | M3 x 16 mm pan head screws + nuts + washers, 304 stainless (20 sets) | Board to support, 4 holes | M3 20sets / 16mm | AliExpress | 1 | $3.03 | $3.03 | Quoted | [link](https://www.aliexpress.com/item/4001323750672.html) |  |
-| Discounts | AliExpress checkout discounts |  |  | AliExpress | 1 | -$4.31 | -$4.31 | Quoted |  |  |
+| Mounting | M3 x 20 mm pan head screws + nuts + washers, 304 stainless (20 sets) | Board to support, 4 holes | M3 20sets / 20mm | AliExpress | 1 | $3.06 | $3.06 | Quoted | [link](https://www.aliexpress.com/item/4001323750672.html) |  |
+| Discounts | AliExpress checkout discounts |  |  | AliExpress | 1 | -$4.32 | -$4.32 | Quoted |  |  |
 | Already owned | ESP32 dev board (38-pin) | J3/J4 |  | Owned | 1 | $0.00 | $0.00 | Owned |  |  |
 | Already owned | Light sensor module | J14 |  | Owned | 1 | $0.00 | $0.00 | Owned |  |  |
 | Already owned | MCP2515 CAN module (first one) | J7 or J9 |  | Owned | 1 | $0.00 | $0.00 | Owned |  |  |
@@ -49,4 +50,4 @@ I made this project mostly because I had a lot of car dashboards around, and wan
 | Shipping | Shipping: Click & collect |  |  | Supercheap Auto | 1 | $0.00 | $0.00 | Quoted |  |  |
 | Shipping | Shipping: Standard delivery (T10 bulbs) |  |  | Amazon AU | 1 | $0.00 | $0.00 | Estimate |  | Free on first order or over AU$49 |
  
-**Total: $161.18** (parts $125.06 + shipping $36.12)
+**Total: $162.97** (parts $126.85 + shipping $36.12)
